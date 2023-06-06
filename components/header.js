@@ -9,20 +9,20 @@ class Header extends HTMLElement {
         <h2 class="logo"><a href="/">Dudych</a></h2>
         <nav class="wrapper">
           <ul class="nav_link">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/tech.html">Tech Stack</a></li>
-            <li><a href="/projects.html">Projects</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li class="zoom"><a href="/" class="nav_link_li">Home</a></li>
+            <li class="zoom"><a href="/about.html" class="nav_link_li">About</a></li>
+            <li class="zoom"><a href="/tech.html" class="nav_link_li">Tech Stack</a></li>
+            <li class="zoom"><a href="/projects.html" class="nav_link_li">Projects</a></li>
+            <li class="zoom"><a href="/contact.html" class="nav_link_li">Contact</a></li>
           </ul>
           <ul class="social_link">
-            <li>
+            <li class="zoom">
               <img src="./image/github.svg" alt="GitHub" width="{30}" height="{30}" />
             </li>
-            <li>
+            <li class="zoom">
               <img src="./image/email.svg" alt="Email" width="{30}" height="{30}" />
             </li>
-            <li>
+            <li class="zoom">
               <img src="./image/linkedin.svg" alt="LinkedIn" width="{30}" height="{30}" />
             </li>
           </ul>

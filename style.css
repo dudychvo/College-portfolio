@@ -1,6 +1,9 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+}
+
+.zoom:hover {
+  transform: scale(1.20);
+  transition: transform 0.3s;
 }
 
 .container {
@@ -10,6 +13,16 @@ body {
 
 ul {
   list-style: none;
+}
+
+.nav_link_li {
+  margin-right: 50px;
+  color: #666666;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 a {
@@ -36,9 +49,6 @@ a {
   margin: 0;
 }
 
-.nav_link li {
-  margin-right: 50px;
-}
 
 .logo {
   margin: 0;
@@ -55,13 +65,38 @@ a {
 }
 
 .main_container {
-  margin-top: 10rem;
+  margin-top: 5.5rem;
+}
+
+.home-introduction {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  color: #42446E;
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+.gradient {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  margin: 0;
+  background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .about_info {
@@ -78,12 +113,6 @@ a {
   padding-top: 20px;
 }
 
-.gradient {
-  background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
 
 .info_container {
   display: flex;
@@ -128,7 +157,6 @@ a {
   font-size: 0.9rem;
   margin: 0;
   padding-left: 10px;
-  color: #666666;
   letter-spacing: 1;
 }
 
