@@ -17,7 +17,7 @@ class Header extends HTMLElement {
           </ul>
           <ul class="social_link">
             <li class="zoom">
-              <img src="./image/github.svg" alt="GitHub" width="{30}" height="{30}" />
+              <a href="https://github.com/dudychvo"><img src="./image/github.svg" alt="GitHub" width="{30}" height="{30}" /><a/>
             </li>
             <li class="zoom">
               <img src="./image/email.svg" alt="Email" width="{30}" height="{30}" />
