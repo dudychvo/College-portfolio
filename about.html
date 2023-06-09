@@ -8,18 +8,23 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
     <script src="components/header.js" type="text/javascript" defer></script>
   </head>
   <body>
     <div class="container">
       <header-component></header-component>
       <main class="tech_wrapper">
-        <h2 class="title">About Me</h2>
-        <p class="about_me_description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem quos ab eius tempore. Saepe fuga,
-          quod autem excepturi cupiditate dolores eaque culpa harum sunt, praesentium facere vero animi magni.
-        </p>
+        <div class="content">
+          <div>
+            <h2 class="title">About Me</h2>
+            <p class="about_me_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem quos ab eius tempore. Saepe
+              fuga, quod autem excepturi cupiditate dolores eaque culpa harum sunt, praesentium facere vero animi magni.
+            </p>
+          </div>
+          <img src="./image/avatar.png" alt="Avatar" width="{350}" height="{350}" />
+        </div>
         <h2 class="title">Education</h2>
         <div class="about_info">
           <div class="info_wrapper">
@@ -41,27 +46,27 @@
             </div>
           </div>
         </div>
-        
+
         <div class="about_info">
+          <div class="info_wrapper">
+            <h3 class="info_title">Bachelor in Electronics & Communication</h3>
+            <p class="employment">Full time</p>
+          </div>
+          <div class="info_wrapper">
             <div class="info_wrapper">
-              <h3 class="info_title">Bachelor in Electronics & Communication</h3>
-              <p class="employment">Full time</p>
+              <img src="./image/building.svg" width="{16}" height="{16}" alt="Company" />
+              <p class="info">Oxford Uni</p>
             </div>
             <div class="info_wrapper">
-              <div class="info_wrapper">
-                <img src="./image/building.svg" width="{16}" height="{16}" alt="Company" />
-                <p class="info">Oxford Uni</p>
-              </div>
-              <div class="info_wrapper">
-                <img src="./image/location.svg" width="{16}" height="{16}" alt="Location" />
-                <p class="info">Oxford</p>
-              </div>
-              <div class="info_wrapper">
-                <img src="./image/time.svg" width="{16}" height="{16}" alt="Time" />
-                <p class="info">Aug 2015 - Dec 2020</p>
-              </div>
+              <img src="./image/location.svg" width="{16}" height="{16}" alt="Location" />
+              <p class="info">Oxford</p>
+            </div>
+            <div class="info_wrapper">
+              <img src="./image/time.svg" width="{16}" height="{16}" alt="Time" />
+              <p class="info">Aug 2015 - Dec 2020</p>
             </div>
           </div>
+        </div>
       </main>
     </div>
   </body>

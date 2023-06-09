@@ -1,5 +1,9 @@
+body {
+  font-family: "Poppins";
+}
+
 .zoom:hover {
-  transform: scale(1.20);
+  transform: scale(1.2);
   transition: transform 0.3s;
 }
 
@@ -15,7 +19,6 @@ ul {
 .nav_link_li {
   margin-right: 50px;
   color: #666666;
-  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -46,7 +49,6 @@ a {
   margin: 0;
 }
 
-
 .logo {
   margin: 0;
 }
@@ -66,25 +68,23 @@ a {
 }
 
 .home-introduction {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 58px;
   line-height: 70px;
-  color: #42446E;
+  color: #42446e;
   letter-spacing: -1px;
   margin: 0;
 }
 
 .gradient {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 58px;
   line-height: 70px;
   letter-spacing: -1px;
   margin: 0;
-  background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+  background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -103,19 +103,18 @@ a {
   font-size: 58px;
   line-height: 70px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #EBEAED;;
+  border-bottom: 1px solid #ebeaed;
 }
 
 .about_info:not(:first-child) {
   padding-top: 20px;
 }
 
-
 .info_container {
   display: flex;
   flex-direction: column;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #EBEAED;
+  border-bottom: 2px solid #ebeaed;
 
   &:not(:first-child) {
     padding-top: 1rem;
@@ -166,10 +165,19 @@ a {
 }
 
 .description {
+  font-family: "DM Sans";
   color: #666666;
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
+}
+
+.big_description {
+  font-family: "DM Sans";
+  color: #666666;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .tech_wrapper {
@@ -185,7 +193,7 @@ a {
 }
 
 .stack_wrapper {
-  margin-top: 8rem;
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   justify-items: center;
@@ -193,20 +201,22 @@ a {
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
+  padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #04AA6D;
+input[type="submit"] {
+  background-color: #04aa6d;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -215,11 +225,144 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #45a049;
 }
 
 /* Add a background color and some padding around the form */
 .form_container {
   display: flex;
+}
+
+.unit_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  justify-items: center;
+  grid-gap: 35px;
+}
+
+.unit_wrapper {
+  background: #ffffff;
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  max-width: 375px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.unit_img {
+  border-radius: 20px 20px 0 0;
+}
+
+.unit_title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 26px;
+  color: #000000;
+  padding: 0 20px;
+}
+
+.units_description {
+  color: #666666;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 0 20px;
+}
+
+.unit_link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 20px 20px 20px;
+}
+
+.download_button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.downloads_button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.downloads_button a {
+  padding: 20px;
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.downloads_button a:not(:last-child) {
+  margin-right: 40px;
+}
+
+.cv {
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+}
+
+.download_button a {
+  padding: 20px;
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.unit_description {
+  display: flex;
+  padding: 0;
+}
+
+.unit_description .about_me_description:not(:last-child) {
+  margin-right: 40px;
+}
+
+.about_me_full_description {
+  color: #666666;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .header_container {
+    flex-direction: column;
+  }
+  .nav_link {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav_link_li {
+    margin: 0;
+  }
+
+  .nav_link .zoom {
+    margin: 0 0 10px 0;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+  }
+
+  .info {
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .form_container {
+    flex-direction: column;
+  }
+
+  .unit_description {
+    flex-direction: column;
+  }
 }
