@@ -9,12 +9,12 @@ class Header extends HTMLElement {
       <h2 class="logo"><a href="/">Dudych</a></h2>
       <nav class="wrapper">
         <ul class="nav_link">
-          <li class="zoom"><a href="/" class="nav_link_li">Home</a></li>
-          <li class="zoom"><a href="/about.html" class="nav_link_li">About</a></li>
-          <li class="zoom"><a href="/cv.html" class="nav_link_li">CV</a></li>
-          <li class="zoom"><a href="/skills.html" class="nav_link_li">Skills</a></li>
-          <li class="zoom"><a href="/units.html" class="nav_link_li">Units</a></li>
-          <li class="zoom"><a href="/contact.html" class="nav_link_li">Contact me</a></li>
+          <li class="zoom"><a href="./" class="nav_link_li">Home</a></li>
+          <li class="zoom"><a href="./about.html" class="nav_link_li">About</a></li>
+          <li class="zoom"><a href="./cv.html" class="nav_link_li">CV</a></li>
+          <li class="zoom"><a href="./skills.html" class="nav_link_li">Skills</a></li>
+          <li class="zoom"><a href="./units.html" class="nav_link_li">Units</a></li>
+          <li class="zoom"><a href="./contact.html" class="nav_link_li">Contact me</a></li>
         </ul>
         <ul class="social_link">
           <li class="zoom">
