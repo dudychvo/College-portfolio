@@ -300,6 +300,7 @@ input[type="submit"]:hover {
 }
 
 .cv {
+  width: 100%;
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
   border: 1px solid black;
 }
