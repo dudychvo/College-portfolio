@@ -6,7 +6,7 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <header class="header_container">
-      <h2 class="logo"><a href="/"><img src="../image/logo.svg" alt="logo" height="50px"/></a></h2>
+      <h2 class="logo"><img src="../image/logo.svg" alt="logo" height="50px"/></h2>
       <nav class="wrapper">
         <ul class="nav_link">
           <li class="zoom"><a href="./" class="nav_link_li">Home</a></li>

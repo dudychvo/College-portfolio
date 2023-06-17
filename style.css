@@ -184,6 +184,11 @@ a {
   margin-top: 8rem;
 }
 
+.skills_title_center {
+  display: flex;
+  justify-content: center;
+}
+
 .about_me_description {
   color: #666666;
   font-weight: 400;
@@ -252,6 +257,8 @@ input[type="submit"]:hover {
 
 .unit_img {
   border-radius: 20px 20px 0 0;
+  width: 375px;
+  height: 260px;
 }
 
 .unit_title {
@@ -275,6 +282,15 @@ input[type="submit"]:hover {
   font-size: 16px;
   line-height: 26px;
   padding: 0 20px 20px 20px;
+}
+
+.unit_zoom:hover {
+  transform: scale(1.15);
+  transition: transform 0.5s ease;
+}
+
+.unit_button:hover {
+  text-decoration: underline;
 }
 
 .download_button {
