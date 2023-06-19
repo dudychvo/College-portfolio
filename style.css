@@ -382,4 +382,10 @@ input[type="submit"]:hover {
   .unit_description {
     flex-direction: column;
   }
+
+  .downloads_button {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
