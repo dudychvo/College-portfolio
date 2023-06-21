@@ -343,7 +343,18 @@ input[type="submit"]:hover {
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
+  max-width: 600px;
   width: 100%;
+}
+
+.about_me_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.unit_photo {
+  width: 300px;
 }
 
 @media screen and (max-width: 992px) {
@@ -375,6 +386,10 @@ input[type="submit"]:hover {
     margin: 20px 0;
     padding: 0;
     text-align: center;
+  }
+
+  .about_me_wrapper {
+    flex-direction: column;
   }
 
   .form_container {
