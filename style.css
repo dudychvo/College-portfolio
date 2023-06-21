@@ -351,10 +351,12 @@ input[type="submit"]:hover {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  margin-bottom: 10px;
 }
 
 .unit_photo {
-  width: 300px;
+  width: 400px;
+  border: 0.5px solid;
 }
 
 @media screen and (max-width: 992px) {
